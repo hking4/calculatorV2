@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href ="Home.css">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Elementary Calculator</title>
+</head>
+
+<body>
+	<h1> Welcome to the Simple Calculator! </h1>
+	
+	<div class="menu"> 
+			<button onClick= "window.location.href = 'elementary.html'"> Elementary </button>
+			<button onClick= "window.location.href = 'stat.html'"> Statistical </button>
+	</div>
+	
+	<br> <br> <br>
+	
+	<div style="margin-left: 201px" id = "con">
+        <input type= "number" id="num1" style="background-color: white"> 
+
+        <select id = "select" onchange = "boxM()"> 
+            <option id = "plus"> + </option>
+            <option id = "minus"> - </option>
+            <option id = "mult"> * </option>
+            <option id = "div"> / </option>
+            <option id = "root"> √ </option>
+        </select>
+
+        <input type="number" id="num2" style="background-color: white"> = <span id="final" style="width: 15px; background-color:white; font-size: 100px"></span> <br> <br> 
+        <button onclick="select()"> Solve </button> 
+	</div> 	
+	
+	<script src="elem.js"> </script>
+
+</body>
+
+</html>

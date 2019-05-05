@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href ="Home.css">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Stat Calculator</title>
+</head>
+
+<body>
+	<h1 style="text-align: center"> Welcome to the Simple Calculator! </h1>
+	
+	<div class="menu"> 
+			<button onClick= "window.location.href = 'elementary.html'"> Elementary </button>
+			<button onClick= "window.location.href = 'stat.html'"> Statistical </button>
+	</div>
+	
+	<br> <br> <br>
+	
+	<div style="margin-left: 201px; font-size: 100px">
+
+        <select id = "sel" onchange = "change()">
+            <option id = "avg"> AVG </option>
+            <option id = "sdev"> SDEV </option>
+            <option id = "var"> VAR </option>
+            <option id = "fact"> FACT </option>
+        </select>
+
+        (<input type="text" id="num1" style="background-color: white; height: 75px; font-size: 50px">) = <span id="final" style="width: 15px; background-color:white"></span> <br> <br> 
+		<button onclick="selects()"> Solve </button>
+	</div> 	
+	
+    <script src="stat.js"> </script>
+
+</body>
+
+</html>

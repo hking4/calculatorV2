@@ -1,0 +1,66 @@
+﻿* {
+	background-color: #448fa3;
+	font-family: "Courier New";
+}
+
+.menu {
+	padding-left: 13.5%;
+}
+
+.menu button {
+	width: 540px;
+	height: 90px;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+button {
+	width: 400px;
+	height: 90px;
+	background-color: orange;
+	font-size: 60px;
+	font-weight: bold;
+
+}
+
+a {
+	background-color: orange;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+#select {
+	background-color: orange;
+	height: 90px;
+	width: 100px;
+	text-align: center;
+	font-size: 100px;
+}
+
+#sel {
+	background-color: orange;
+	height: 90px;
+	width: 225px;
+	text-align: center;
+	font-size: 100px;
+}
+
+input {
+	height: 200px;
+	width: 275px;
+	font-size: 100px;
+}
+
+#con
+{
+	font-size: 100px;
+}
+
+option {
+	background-color: orange;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+}
